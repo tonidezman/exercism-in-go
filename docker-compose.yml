@@ -1,0 +1,6 @@
+services:
+  exercises-for-go:
+    build: .
+    volumes:
+      - .:/exercises
+      - ./go:/root/exercism/go
